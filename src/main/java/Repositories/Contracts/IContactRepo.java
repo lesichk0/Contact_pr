@@ -1,4 +1,4 @@
-package org.example;
+package Repositories.Contracts;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -12,6 +12,5 @@ public interface IContactRepo {
     public void DeleteFromImportant(String nameOfOwner) throws SQLException;
     public void AddToImportant(String nameOfOwner) throws SQLException;
     public void SearchContact(String ownName) throws SQLException;
-    public void PrintAll(ResultSet rs) throws SQLException;
     public boolean IsInDb(String ownerName) throws SQLException;
 }
