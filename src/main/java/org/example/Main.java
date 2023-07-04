@@ -18,7 +18,7 @@ public class Main {
             ToDo = scan.nextLine();
             switch (ToDo.toLowerCase()) {
                 case "help" -> {
-                    System.out.println("\"add\" - add new contact");
+                    System.out.println("\n\"add\" - add new contact");
                     System.out.println("\"show all\" - shows all contacts");
                     System.out.println("\"show sorted\" - shows all contacts sorted by name of owner");
                     System.out.println("\"show important\" - shows all important contacts");
